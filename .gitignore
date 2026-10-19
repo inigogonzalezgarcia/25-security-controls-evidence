@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# Local data and generated output (your real control register and evidence index stay out of Git;
+# the fictional files in sample_data/ are committed on purpose)
+/output/
+/controls*.csv
+/evidence*.csv
+/exceptions*.csv
+/frameworks*.csv
+/data/
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
