@@ -1,0 +1,34 @@
+id,control_id,description,source,frequency,last_collected,result,location,collector
+E01,SC-01,Device inventory reconciliation (MDM vs CMDB),Intune + CMDB,monthly,2026-10-03,pass,ISMS/Evidence/2026-10/E01-inventory.xlsx,Marta Ruiz
+E02,SC-02,Quarterly access review of business groups,Entra ID access reviews,quarterly,2026-07-08,pass,ISMS/Evidence/2026-Q3/E02-access-review.pdf,Laura Gómez
+E03,SC-02,Leavers disabled within 24 hours (HR vs directory),HR export + Entra ID,monthly,2026-09-30,pass,ISMS/Evidence/2026-09/E03-leavers.xlsx,Laura Gómez
+E04,SC-03,PIM activations reviewed,Entra ID PIM,monthly,2026-09-12,pass,ISMS/Evidence/2026-09/E04-pim.csv,Laura Gómez
+E05,SC-04,Conditional Access policies export,Entra ID,quarterly,2026-08-20,pass,ISMS/Evidence/2026-Q3/E05-ca-policies.json,Laura Gómez
+E06,SC-04,"MFA registration report (97%, 6 accounts pending)",Entra ID,monthly,2026-10-01,partial,ISMS/Evidence/2026-10/E06-mfa.csv,Laura Gómez
+E07,SC-05,Device compliance report,Intune,monthly,2026-10-05,pass,ISMS/Evidence/2026-10/E07-compliance.csv,Marta Ruiz
+E08,SC-06,Encryption and recovery key escrow report,Intune + Jamf Pro,monthly,2026-10-05,pass,ISMS/Evidence/2026-10/E08-encryption.csv,Marta Ruiz
+E09,SC-07,EDR coverage: devices without a sensor,EDR console,monthly,2026-08-29,pass,ISMS/Evidence/2026-08/E09-edr.csv,Marta Ruiz
+E10,SC-08,Vulnerability scan summary (3 critical over SLA),Vulnerability scanner,monthly,2026-10-02,partial,ISMS/Evidence/2026-10/E10-scan.pdf,Diego Martín
+E11,SC-08,Patch compliance report,Intune + WSUS,monthly,2026-10-06,pass,ISMS/Evidence/2026-10/E11-patching.csv,Diego Martín
+E12,SC-09,Backup job report,Veeam,weekly,2026-10-16,pass,ISMS/Evidence/2026-10/E12-backup.pdf,Diego Martín
+E13,SC-09,"Restore test: file, mailbox and VM",Veeam,quarterly,2026-06-12,pass,ISMS/Evidence/2026-Q2/E13-restore.pdf,Diego Martín
+E14,SC-09,Immutable backup copy check,Veeam,monthly,2026-10-09,fail,ISMS/Evidence/2026-10/E14-immutable.pdf,Diego Martín
+E15,SC-10,Disaster recovery test report,DR runbook,annual,2025-11-14,pass,ISMS/Evidence/2025/E15-dr-test.pdf,Diego Martín
+E16,SC-10,Business continuity plan approval,BCP,annual,2026-03-02,pass,ISMS/Evidence/2026/E16-bcp.pdf,Javier Molina
+E17,SC-11,SIEM data connectors health,SIEM,monthly,2026-10-10,pass,ISMS/Evidence/2026-10/E17-siem.png,Laura Gómez
+E18,SC-11,Log retention settings (365 days),SIEM + Log Analytics,annual,2026-01-20,pass,ISMS/Evidence/2026/E18-retention.png,Laura Gómez
+E19,SC-12,Incident response plan and authority contacts,ISMS,annual,2026-02-11,pass,ISMS/Evidence/2026/E19-irp.pdf,Laura Gómez
+E20,SC-12,Tabletop exercise report,ISMS,annual,2025-09-30,pass,ISMS/Evidence/2025/E20-tabletop.pdf,Laura Gómez
+E21,SC-12,Incident register with notification times,ITSM,quarterly,2026-09-30,pass,ISMS/Evidence/2026-Q3/E21-incidents.xlsx,Laura Gómez
+E22,SC-13,Security questionnaires of critical suppliers,Supplier register,annual,2026-04-15,pass,ISMS/Evidence/2026/E22-suppliers.xlsx,Pablo Ortega
+E23,SC-13,Register of processor agreements,Legal,annual,2026-04-15,pass,,Elena Sanz
+E24,SC-14,Awareness training completion,Learning platform,quarterly,2026-09-25,pass,ISMS/Evidence/2026-Q3/E24-training.csv,Laura Gómez
+E25,SC-14,Phishing simulation results (9% clicked),Phishing platform,quarterly,2026-07-15,partial,ISMS/Evidence/2026-Q3/E25-phishing.pdf,Laura Gómez
+E26,SC-14,Management body cybersecurity training record,HR,annual,,,,Javier Molina
+E27,SC-15,CAB minutes and change log,ITSM,monthly,2026-10-07,pass,ISMS/Evidence/2026-10/E27-cab.pdf,Pablo Ortega
+E28,SC-16,Firewall rule review,Firewall,semiannual,2026-02-18,pass,ISMS/Evidence/2026/E28-fw-review.xlsx,Diego Martín
+E29,SC-17,Records of processing reviewed,Privacy,annual,2026-05-20,pass,ISMS/Evidence/2026/E29-ropa.xlsx,Elena Sanz
+E30,SC-17,Impact assessment for the HR system,Privacy,once,2025-12-01,pass,ISMS/Evidence/2025/E30-dpia-hr.pdf,Elena Sanz
+E31,SC-18,Risk register review,ISMS,quarterly,2026-09-15,pass,ISMS/Evidence/2026-Q3/E31-risks.xlsx,Javier Molina
+E32,SC-18,Management review minutes and KPIs,ISMS,annual,2025-12-10,pass,ISMS/Evidence/2025/E32-mgmt-review.pdf,Javier Molina
+E33,SC-30,Visitor log review,Reception,monthly,2026-10-01,pass,ISMS/Evidence/2026-10/E33-visitors.pdf,Pablo Ortega

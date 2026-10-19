@@ -1,0 +1,4 @@
+id,control_id,reason,risk_owner,approved_by,approved_on,expires,compensating
+X01,SC-08,Legacy label printer server cannot be patched until it is replaced,Diego Martín,Javier Molina,2026-05-10,2026-11-10,"Isolated VLAN, no internet access, weekly scan"
+X02,SC-20,DLP rules in audit mode only while false positives are tuned,Laura Gómez,Javier Molina,2026-03-30,2026-09-30,Weekly review of the DLP audit log
+X03,SC-14,Board members exempt from phishing simulations,Laura Gómez,,,,

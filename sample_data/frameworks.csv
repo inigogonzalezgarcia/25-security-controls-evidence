@@ -1,0 +1,49 @@
+framework,ref,title
+ISO27001,A.5.7,Threat intelligence
+ISO27001,A.5.9,Inventory of information and assets
+ISO27001,A.5.15,Access control rules
+ISO27001,A.5.18,"Access rights: grant, review and remove"
+ISO27001,A.5.19,Security in supplier relationships
+ISO27001,A.5.23,Security of cloud services
+ISO27001,A.5.24,Incident management planning
+ISO27001,A.5.29,Security during disruption
+ISO27001,A.5.30,ICT readiness for business continuity
+ISO27001,A.5.31,"Legal, regulatory and contractual requirements"
+ISO27001,A.5.34,Privacy and protection of personal data
+ISO27001,A.6.3,Security awareness and training
+ISO27001,A.7.4,Physical security monitoring
+ISO27001,A.7.10,Storage media
+ISO27001,A.8.1,User endpoint devices
+ISO27001,A.8.2,Privileged access rights
+ISO27001,A.8.5,Secure authentication
+ISO27001,A.8.7,Protection against malware
+ISO27001,A.8.8,Technical vulnerabilities
+ISO27001,A.8.9,Configuration management
+ISO27001,A.8.12,Data leakage prevention
+ISO27001,A.8.13,Information backup
+ISO27001,A.8.15,Logging
+ISO27001,A.8.16,Monitoring activities
+ISO27001,A.8.20,Network security
+ISO27001,A.8.24,Use of cryptography
+ISO27001,A.8.28,Secure coding
+ISO27001,A.8.32,Change management
+NIS2,20.2,"Management body: approval, oversight and training"
+NIS2,21.2.a,Risk analysis and information system security policies
+NIS2,21.2.b,Incident handling
+NIS2,21.2.c,"Business continuity, backup, disaster recovery and crisis management"
+NIS2,21.2.d,Supply chain security
+NIS2,21.2.e,"Security in acquisition, development and maintenance, including vulnerability handling"
+NIS2,21.2.f,Assessing the effectiveness of the measures
+NIS2,21.2.g,Basic cyber hygiene and cybersecurity training
+NIS2,21.2.h,Cryptography and encryption
+NIS2,21.2.i,"HR security, access control and asset management"
+NIS2,21.2.j,Multi-factor authentication and secured communications
+NIS2,23,Reporting significant incidents (24 h / 72 h / 1 month)
+GDPR,28,Processor contracts
+GDPR,30,Records of processing activities
+GDPR,32.1.a,Pseudonymisation and encryption
+GDPR,32.1.b,"Confidentiality, integrity, availability and resilience"
+GDPR,32.1.c,Restore availability and access after an incident
+GDPR,32.1.d,Regular testing of the measures
+GDPR,33,Breach notification to the authority within 72 hours
+GDPR,35,Data protection impact assessment
